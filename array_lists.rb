@@ -11,6 +11,11 @@ class ArrayList
   end
 
   def get(index)
+    if @array[index]
+      return @array[index]
+    else
+      return "Out of bounds!"
+    end
   end
 
   def set(index, element)
