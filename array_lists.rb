@@ -19,9 +19,15 @@ class ArrayList
   end
 
   def set(index, element)
+    if @array[index]
+      @array[index]=element
+    else
+      return "Out of bounds!"
+    end
   end
 
   def length
+    return @array.count
   end
 
 end
