@@ -1,8 +1,13 @@
 class ArrayList
-  def initialize
+  attr_accessor :size, :array
+  def initialize(size)
+    @size = size
+    @array = Array.new(size)
   end
 
   def add(element)
+    @array.push(element)
+    return @array.last
   end
 
   def get(index)
