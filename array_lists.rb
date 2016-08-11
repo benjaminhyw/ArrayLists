@@ -29,5 +29,4 @@ class ArrayList
   def length
     return @array.count
   end
-
 end
