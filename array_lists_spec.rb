@@ -36,5 +36,4 @@ describe ArrayList do
       expect(array.length).to eq 4
     end
   end
-
 end
